@@ -15,6 +15,9 @@ const CardMovie = () => {
                                     <img src={movie.img} alt={movie.name} />
                                 </div>
                                 <div className="movie-card-body" >
+                                        <h2>
+                                            {movie.name}
+                                        </h2>
                                     <h4>
                                     {60 < movie.duration
                                         ? Math.floor(movie.duration / 60) +
@@ -23,9 +26,7 @@ const CardMovie = () => {
                                         " m"
                                         : movie.duration + " m"}
                                     </h4>
-                                        <h2>
-                                            {movie.name}
-                                        </h2>
+                                       
                                         
                                     <span>
                                         {movie.genre}
