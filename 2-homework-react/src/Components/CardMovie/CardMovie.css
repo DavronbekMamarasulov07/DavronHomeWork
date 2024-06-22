@@ -16,6 +16,12 @@
     overflow: hidden;
     height: 100%;
     min-height: 25px;
+    border-image: linear-gradient(#104880, #8c47c1) 30;
+    border-width: 4px;
+    border-style: solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .movie-card-img{
@@ -25,9 +31,9 @@
 .movie-card-img img{
     width: 100%;
     overflow: hidden;
-    border-image: linear-gradient(#104880, #8c47c1) 30;
-    border-width: 4px;
-    border-style: solid;
+    height: 100%;
+    
+   
 
 }
 
